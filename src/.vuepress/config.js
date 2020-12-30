@@ -27,7 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'vue-site-guide-docs',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
@@ -71,5 +71,7 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+
+  base: '/vue-site-guide-docs/'
 }
