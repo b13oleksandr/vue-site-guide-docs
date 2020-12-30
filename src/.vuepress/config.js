@@ -27,7 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'vue-site-guide-docs',
+    repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
@@ -39,7 +39,7 @@ module.exports = {
       },
       {
         text: 'GitHub',
-        link: 'https://v1.vuepress.vuejs.org'
+        link: 'https://github.com/b13oleksandr/vue-site-guide'
       }
     ],
     sidebar: {
