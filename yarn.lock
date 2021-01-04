@@ -7548,9 +7548,9 @@ vue-server-renderer@^2.6.10:
     source-map "0.5.6"
 
 vue-site-guide@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vue-site-guide/-/vue-site-guide-1.0.0.tgz#5c1b1a7c03663c95da8f101b5ce1db6782bc558f"
-  integrity sha512-y1QUmy9ac6LM+NwMM4AzdoK2qO48XnYEdij2oAXjdpiYk2LFB2RCOT/kysajv6McWBenkOVho5uDLEVN8UmvKQ==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vue-site-guide/-/vue-site-guide-1.0.3.tgz#2619d0b2710b37dbaa8102c5ea2d327f2ab18e63"
+  integrity sha512-6ruI0U8PUhu+jZl3kjS1jmRsYhtAmYO6uFiKHvpy+cOPkuW6NBsGdPOX0XuKgYY/YUsDlXJ1/cJ2guPQ4+C9TA==
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
