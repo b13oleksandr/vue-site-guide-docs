@@ -15,15 +15,15 @@ yarn add vue-site-guide
 ## Usage
 ``` vue
 <vue-site-guide v-model="guide" :config="guideConfig">
-  <div id="title">
+  <div id="#main-title">
     ...
   </div>
     
-  <div id="start">
+  <div class="start">
     ...
   </div>
     
-  <div id="features">
+  <div id="install">
     ...
   </div>
 </vue-site-guide>
@@ -38,18 +38,18 @@ yarn add vue-site-guide
       steps: [
         {
           selector: '#main-title',
-          title: 'Step 1',
-          message: 'step 1 massage'
+          title: 'Vue site gide',
+          message: 'Vue js library to help users get to know your site'
         },
         {
-          selector: '.features',
-          title: 'Step 2',
-          message: 'step 2 massage'
+          selector: '.start',
+          title: 'Get started',
+          message: 'Vue site guide documentation'
         },
         {
-          selector: '#install + .language-sh.extra-class',
-          title: 'Step 3',
-          message: 'step 3 massage'
+          selector: '#install',
+          title: 'Install',
+          message: 'Use yarn or npm to install Vue site guide'
         }
       ]
     }
