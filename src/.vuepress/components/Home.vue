@@ -24,13 +24,15 @@
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
-      <custom-button
-          v-if="data.actionText && data.actionLink"
-          :link="data.actionLink"
-          :text="data.actionText"
-          id="start"
-      />
-      <custom-button text="Demo" @click.native="$emit('update:guide', true)" />
+      <div class="actions">
+        <custom-button
+            v-if="data.actionText && data.actionLink"
+            :link="data.actionLink"
+            :text="data.actionText"
+            id="start"
+        />
+        <custom-button text="Demo" @click.native="$emit('update:guide', true)" />
+      </div>
     </header>
 
     <div
@@ -144,6 +146,10 @@ export default {
       color lighten($textColor, 10%)
     p
       color lighten($textColor, 25%)
+  .actions
+    display flex
+    align-items center
+    justify-content center
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
@@ -178,4 +184,9 @@ export default {
     .feature
       h2
         font-size 1.25rem
+    .actions
+      flex-direction column
+
+      >:first-child
+        margin-bottom: 16px
 </style>
